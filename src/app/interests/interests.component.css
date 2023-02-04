@@ -1,0 +1,13 @@
+#contact{
+    height: 100%;
+}
+
+.interests ul{
+    list-style: none;
+}
+
+.interests li{
+    font-size: 25px;
+    margin: 1rem 0;
+
+}

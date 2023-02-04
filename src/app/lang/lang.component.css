@@ -1,0 +1,11 @@
+.languages ul{
+    list-style-type: none;
+}
+
+
+.languages li {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 1rem 0;
+    letter-spacing: 1px;
+}
