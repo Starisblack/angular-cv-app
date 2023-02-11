@@ -15,8 +15,5 @@ export class NavbarComponent {
   
   }
 
-  hideSideMenu() {
-    document.getElementById("header")?.classList.toggle('mobile-nav-active');
-  }
-
+  
 }
