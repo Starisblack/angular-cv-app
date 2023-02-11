@@ -136,11 +136,9 @@
     border-radius: 50px;
     cursor: pointer;
   }
+
   
-  .mobile-nav-active {
+  .mobile-nav-active{
+    left: 0 !important;
     overflow: hidden;
-  }
-  
-  .mobile-nav-active #header {
-    left: 0;
   }

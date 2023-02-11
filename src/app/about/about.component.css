@@ -32,4 +32,13 @@
   .about .content p:last-child {
     margin-bottom: 0;
   }
+
+
+  @media screen and (max-width: 450px) {
+
+    .about p{
+      text-align: justify;
+    }
+    
+  }
   

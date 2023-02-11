@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  handleClick()
+  {
+    document.getElementById("header")?.classList.toggle('mobile-nav-active');
+     document.getElementById("icon")?.classList.toggle("fa-bars");
+     document.getElementById("icon")?.classList.toggle("fa-times");
+  
+  }
+
+  hideSideMenu() {
+    document.getElementById("header")?.classList.toggle('mobile-nav-active');
+  }
+
 }
